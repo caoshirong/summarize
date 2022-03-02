@@ -17,3 +17,9 @@
      event.preventDefault()
    })
    ```
+5. > 跨域配置问题：
+    ```
+    1、接口响应头中的Set-Cookie字段中的path参数
+    2、baseURL 的配置路径需要头部匹配path
+    3、根据环境变量配置不同的转发参数地址
+    ```
